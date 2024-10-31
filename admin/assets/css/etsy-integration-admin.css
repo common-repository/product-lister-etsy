@@ -1,0 +1,1100 @@
+/* The Modal CSS */
+
+.ced_etsy_modal {
+  color: blue;
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+  content: '';
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close.ced_etsy_modal_close ~ p img {
+  width: 100%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close.ced_etsy_modal_close {
+  position: absolute;
+  content: '';
+  right: 3px;
+  top: 9px;
+  color: #383737;
+}
+
+.ced_etsy_template_modal {
+  display: none;
+}
+
+/********* modal css end ************/
+
+.ced_etsy_timeline_content {
+  max-height: 400px;
+  overflow: scroll;
+}
+.ced_etsy_timeline_content table {
+  border: unset;
+}
+.ced-settings {
+  margin: 10px auto !important;
+  border: unset !important;
+}
+/*.ced-settings th {
+  width: unset;
+  font-weight: 400;
+}*/
+.subsubsub {
+  float: none;
+}
+
+/*New UI Changes*/
+/* connection and sync mapping*/
+.ced-label-wrap label {
+  font-weight: 600;
+  color: #1E1E1E;
+}
+.ced-label-wrap label {
+  line-height: 32px;
+}
+.ced-label-wrap {
+  margin-bottom: 15px;
+}
+.ced-label-wrap {
+  padding-bottom: 24px !important;
+}
+.ced-progress li{
+  width: 33% !important;
+}
+.ced-onboarding-notification {
+  text-align: left;
+  background: #fff;
+  border-left: 4px solid #3858E9;
+  padding: 1px 12px;
+  margin: 5px 0 15px;
+}
+/*succesfully connected */
+.ced-notification-notice p{
+  margin: 0.5em 0 !important;
+  font-size: 13px !important;
+}
+.ced-notification-notice {
+  background: #EFF9F1 !important;
+}
+.ced-account-detail-wrapper {
+  border: 1px solid #4AB866;
+  border-radius: 2px;
+  padding: 12px 8px 12px 8px;
+}
+.ced-account-details-holder {
+  display: flex;
+}
+.ced-account-details-holder p:first-child {
+  font-weight: 500;
+  padding-right: 15px;
+}
+.ced-account-details-holder p {
+  color: #1E1E1E !important;
+  margin: 0 !important;
+}
+.ced-link a {
+  text-decoration: none;
+}
+/*error*/
+.ced-notification-error p {
+  font-size: 13px !important;
+  margin: 0.5em 0 !important;
+  color: #1E1E1E !important;
+  font-weight: 400;
+}
+.ced-notification-error {
+  background: #F4A2A2 !important;
+}
+.subsubsub {
+  float: none;
+}
+
+/*New UI Changes*/
+/* connection and sync mapping*/
+.ced-label-wrap label {
+  font-weight: 600;
+  color: #1E1E1E;
+}
+.ced-label-wrap label {
+  line-height: 32px;
+}
+.ced-label-wrap {
+  margin-bottom: 15px;
+}
+.ced-label-wrap {
+  padding-bottom: 24px !important;
+}
+.ced-progress li{
+  width: 33.3% !important;
+}
+.ced-onboarding-notification {
+  text-align: left;
+  background: #fff;
+  border-left: 4px solid #3858E9;
+  padding: 1px 12px;
+  margin: 5px 0 15px;
+}
+
+.ced-onboarding-error-notification {
+  text-align: left;
+  background: #fff;
+  border-left: 4px solid red;
+  padding: 1px 12px;
+  margin: 5px 0 15px;
+}
+
+/*succesfully connected */
+.ced-notification-notice p{
+  margin: 0.5em 0 !important;
+  font-size: 13px !important;
+}
+.ced-notification-notice {
+  background: #EFF9F1 !important;
+}
+.ced-account-detail-wrapper {
+  border: 1px solid #4AB866;
+  border-radius: 2px;
+  padding: 12px 8px 12px 8px;
+}
+.ced-account-details-holder {
+  display: flex;
+}
+.ced-account-details-holder p:first-child {
+  font-weight: 500;
+  padding-right: 15px;
+}
+.ced-account-details-holder p {
+  color: #1E1E1E !important;
+  margin: 0 !important;
+}
+.ced-link a {
+  text-decoration: none;
+}
+
+/*error*/
+.ced-notification-error p {
+  font-size: 13px !important;
+  margin: 0.5em 0 !important;
+  color: #1E1E1E !important;
+  font-weight: 400;
+}
+.ced-notification-error {
+  background: #F4A2A2 !important;
+}
+.subsubsub {
+  float: none;
+}
+.ced-woocommerce-summary li a {
+  font-size: 16px;
+  padding: 0;
+}
+.ced-woocommerce-summary {
+  border: unset;
+}
+.ced-woocommerce-summary li a {
+  font-size: 16px;
+  padding: 0;
+  background: #fff;
+  border: unset;
+}
+.ced-woocommerce-summary li a:hover {
+  background: #fff;
+}
+.ced-woocommerce-summary li a:focus {
+  box-shadow: unset !important;
+}
+.ced-account-head, .ced-account-body {
+  display: flex;
+  align-items: center;
+}
+.ced-account-head div, .ced-account-body div {
+  width: 33%;
+  padding: 10px;
+}
+.ced-connected-link-account span.ced-circle {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  background: #1ED14B;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 11px;
+}
+.ced-connected-button-wrapper a.ced-pending-link-account {
+  background: #EFF4F9;
+  padding: 9px 18px;
+  color: #1E1E1E;
+  position: relative;
+  content: '';
+  border-radius: 2px;
+  padding-left: 22px;
+  font-size: 12px;
+}
+.ced-connected-button-wrapper a.ced-connected-link-account {
+  background: #EFF9F1;
+  padding: 9px 18px;
+  color: #1E1E1E;
+  position: relative;
+  content: '';
+  border-radius: 2px;
+  padding-left: 22px;
+  font-size: 12px;
+}
+.ced-pending-link-account span.ced-circle {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  background: #72AEE6;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 11px;
+}
+.ced-right{
+  float: right;
+}
+.ced-menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px 0px 2px;
+}
+.ced-processing-button-wrap span.ced-circle {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  background: #72AEE6;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 7px;
+}
+.ced-completed-button-wrap span.ced-circle {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  background: #1ED14B;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 7px;
+}
+.ced-cancelled-button-wrap span.ced-circle {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  background: #000000;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 7px;
+}
+.ced-on-hold-button-wrap span.ced-circle {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  background: #F0C33C;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 7px;
+}
+.ced-pending-button-wrap span.ced-circle {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  background: #FF8085;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 7px;
+}
+.ced-processing-button-wrap a {
+  background: #EFF4F9;
+  color: #1E1E1E;
+  position: relative;
+  content: '';
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 5px 25px;
+}
+.ced-completed-button-wrap a {
+  background: #EFF9F1;
+  padding: 5px 25px;
+  color: #1E1E1E;
+  position: relative;
+  content: '';
+  border-radius: 2px;
+  font-size: 12px;
+}
+.ced-cancelled-button-wrap a {
+  background: #E4E4E4;
+  padding: 5px 25px;
+  color: #1E1E1E;
+  position: relative;
+  content: '';
+  border-radius: 2px;
+  font-size: 12px;
+}
+.ced-on-hold-button-wrap a {
+  background: #FEF8EE;
+  padding: 5px 25px;
+  color: #1E1E1E;
+  position: relative;
+  content: '';
+  border-radius: 2px;
+  font-size: 12px;
+}
+.ced-pending-button-wrap a {
+  background: #FFE8E9;
+  padding: 5px 25px;
+  color: #1E1E1E;
+  position: relative;
+  content: '';
+  border-radius: 2px;
+  font-size: 12px;
+}
+.widefat td {
+  vertical-align: middle !important;
+}
+.woocommerce-summary.has-2-items.ced-woocommerce-summary {
+  border: unset;
+}
+#ced-etsy-disconnect-account-modal {
+  display: none;
+}
+#ced-etsy-disconnect-account-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #0009;
+}
+.ced-modal-text-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 260px;
+  top: 290px;
+  transform: translateY(200px);
+}
+.ced-close-button {
+  line-height: 30px;
+  text-align: center;
+}
+.ced-close-button:hover{
+  cursor: pointer;
+}
+.ced-button-wrap-popup {
+  display: flex;
+  justify-content: end;
+}
+
+#ced-etsy-delete-account {
+  margin-right: 10px;
+}
+.ced_etsy_error p {
+  margin: unset !important;
+}
+.ced-padding {
+  padding: 20px;
+}
+.ced-padding .components-panel__body {
+  border: 1px solid #e0e0e0;
+}
+.ced-padding header h2 {
+  margin-top: 0 !important;
+}
+.ced-etsy-integ-wrapper {
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+.ced-etsy-settng-content-holder {
+  padding: 16px;
+}
+.ced-etsy-settng-content-wrap {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.25s ease-in-out;
+  border-top: 1px solid #e0e0e0;
+}
+.ced-etsy-settng-title {
+  border: none;
+  box-shadow: none;
+  color: #1e1e1e;
+  font-weight: 500;
+  height: auto;
+  outline: none;
+  padding: 16px;
+  position: relative;
+  text-align: left;
+  transition: background .1s ease-in-out;
+  width: 96%;
+  display: inline-block;
+}
+.ced-etsy-settng-title::after {
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: " ";
+  display: inline-block;
+  float: right;
+  height: 8px;
+  left: 2px;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  transform: rotate(135deg);
+  transition: 0.35s ease-in-out;
+  vertical-align: top;
+  width: 8px;
+}
+.ced-etsy-settng-title:hover {
+  color: #4E4B52;
+}
+.components-card .ced-faq-trigger:checked+.ced-etsy-settng-title+.ced-etsy-settng-content-wrap {
+  max-height: 760px;
+}
+.ced-faq-trigger:checked+.ced-etsy-settng-title::after {
+  transform: rotate(-45deg);
+  transition: 0.25s ease-in-out;
+}
+.ced-etsy-integ-wrapper .ced-faq-trigger {
+  display: none;
+}
+.ced-label-wrap label {
+  font-weight: 600;
+  color: #1E1E1E;
+}
+.ced-label-wrap label {
+  line-height: 32px;
+}
+.ced-label-wrap {
+  margin-bottom: 15px;
+}
+.ced-progress li {
+  width: 33% !important;
+}
+.ced-form-accordian-wrap table.form-table {
+  width: 70%;
+  margin-left: 30px !important;
+}
+.ced-flex {
+  display: flex;
+}
+.ced-flex select {
+  margin-right: 15px !important;
+}
+.ced-advance-table-wrap th.titledesc {
+  width: 400px;
+}
+/**Global settings CSS*/
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked+.slider {
+  background-color: #2196F3;
+}
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/ Rounded sliders /
+.slider.round {
+  border-radius: 34px;
+}
+/ popup css /
+input.ced-checked-button {
+  height: 0px;
+  width: 0px;
+  visibility: hidden;
+  display: none;
+}
+input.ced-checked-button:checked+label {
+  background: #007cba;
+  border: 2px solid #007cba;
+}
+input.ced-checked-button:checked+label::after {
+  left: calc(100% - 3px);
+  transform: translateX(-100%);
+  background: #fff;
+}
+.ced-checked-button~label {
+  content: '';
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 47px;
+  height: 24px;
+  background: #fff;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  border: 2px solid #000;
+}
+.ced-checked-button~label::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+.ced-sucess{
+  color: green;
+}
+.ced-failed{
+  color: #eca3a3;
+}
+
+.ced_etsy_log_rows td {
+  vertical-align: top;
+  padding: 12px 16px;
+}
+.ced-category-mapping ol li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #949494;
+  padding: 8px;
+  margin: 0;
+  border-bottom: 0;
+}
+/*.ced-category-mapping-wrapper {
+  margin: 40px auto;
+  max-width: 700px;
+}*/
+.ced-category-mapping ol {
+  margin-left: 0;
+}
+.ced-category-mapping {
+  background: #fff;
+/*    padding: 24px;
+  height: 400px;
+  overflow: scroll;*/
+  }
+  .ced-category-mapping ol li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #949494;
+  padding: 12px 16px;
+  margin: 0;
+  border-top: 0;
+  border-radius: 0;
+  align-items: end;
+  }
+ .ced-category-mapping-wrapper {
+  max-height: 268px;
+  overflow: auto;
+}
+.ced-settings {
+  box-shadow: unset !important;
+}
+.woocommerce table.form-table.ced-settings .select2-container {
+  min-width: 100% !important;
+  width: 100% !important;
+}
+.ced_etsy_product_inventory_logs_GoToStar.ced_etsy_logs.widefat {
+  box-shadow: unset;
+}
+  .ced-category-mapping ol li:first-child {
+  border-radius: 3px 3px 0 0;
+  }
+  .ced-category-mapping ol li:last-child {
+  border-bottom: 1px solid #949494;
+  border-radius: 0 0 3px 3px;
+  }
+  li#ced_etsy_cat_header {
+  display: block;
+  }
+  .ced_etsy_category_arrow {
+  cursor: pointer;
+  }
+  .ced-notification-top-wrap{
+  margin-left: -20px;
+  height: unset;
+  }
+  .ced-notification-top-wrap .woocommerce-layout__header-heading {
+  height: unset !important;
+  }
+ .ced-notification-top-wrap .woocommerce-layout__header {
+  box-shadow: 0 8px 16px 0 rgba(85,93,102,.3);
+  z-index: 1;
+}
+ span.ced-circle-outofstock,
+ span.ced-circle-instock,
+ span.ced-circle-notuploaded{
+  height: 10px;
+  width: 10px;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #75757580;
+  top: 15px;
+  display: block;
+}
+span.ced-circle-instock {
+ background: #1ED14B;
+}
+span.ced-circle-outofstock {
+ background: red;
+}
+span.ced-circle-notuploaded {
+ background: black;
+}
+.stock_alert_instock,
+.stock_alert_outofstock,
+.ced_etsy_product_status{
+  position: relative;
+  left: 20px;
+}
+
+.ced_etsy_prod_name {
+  font-size: 15px;
+}
+#ced_etsy_back {
+  text-decoration: navajowhite;
+  color: black;
+}
+.ced-padding{
+  padding: 20px;
+}
+.ced-padding .components-panel__body {
+  border: 1px solid #e0e0e0;
+}
+.ced-padding header h2 {
+  margin-top: 0 !important;
+}
+.ced-faq-wrapper {
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+.ced-faq-content-holder {
+  padding: 16px;
+}
+.ced-faq-content-wrap {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.25s ease-in-out;
+  border-top: 1px solid #e0e0e0;
+}
+.ced-faq-title {
+  border: none;
+  box-shadow: none;
+  color: #1e1e1e;
+  font-weight: 500;
+  height: auto;
+  outline: none;
+  padding: 16px;
+  position: relative;
+  text-align: left;
+  transition: background .1s ease-in-out;
+  width: 96%;
+  display: inline-block;
+}
+.ced-faq-title::after {
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: " ";
+  display: inline-block;
+  float: right;
+  height: 8px;
+  left: 2px;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  transform: rotate(135deg);
+  transition: 0.35s ease-in-out;
+  vertical-align: top;
+  width: 8px;
+}
+.ced-faq-title:hover {
+  color: #4E4B52  ;
+}
+.components-card .ced-faq-trigger:checked
++ .ced-faq-title
++ .ced-faq-content-wrap {
+  max-height: 760px;
+  overflow: scroll;
+}
+.ced-faq-trigger:checked + .ced-faq-title::after {
+  transform: rotate(-45deg);
+  transition: 0.25s ease-in-out;
+}
+.ced-faq-wrapper input[type="checkbox"] {
+  display: none;
+}
+.ced-label-wrap label {
+  font-weight: 600;
+  color: #1E1E1E;
+}
+.ced-label-wrap label {
+  line-height: 32px;
+}
+.ced-label-wrap {
+  margin-bottom: 15px;
+}
+.ced-progress li{
+  width: 33% !important;
+}
+.ced-form-accordian-wrap table.form-table {
+  width: 70%;
+  margin-left: 30px !important;
+}
+.ced-flex {
+  display: flex;
+}
+.ced-flex select {
+  margin-right: 15px !important;
+}
+.ced-advance-table-wrap th.titledesc {
+  width: 400px;
+}
+.ced_etsy_logs {
+  border: unset !important;
+  box-shadow: unset !important;
+}
+.log_item_label {
+  cursor: pointer;
+}
+/**Global settings CSS*/
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/ Rounded sliders /
+.slider.round {
+  border-radius: 34px;
+}
+
+/ popup css /
+input.ced-checked-button {
+  height: 0px;
+  width: 0px;
+  visibility: hidden;
+  display: none;
+}
+input.ced-checked-button:checked + label {
+  background: #007cba;
+  border: 2px solid #007cba;
+}
+input.ced-checked-button:checked + label::after {
+  left: calc(100% - 3px);
+  transform: translateX(-100%);
+  background: #fff;
+}
+.ced-checked-button ~ label {
+  content: '';
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 36px;
+  height: 18px;
+  background: #fff;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  border: 2px solid #000;
+}
+.ced-checked-button ~ label::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+#recommended tbody tr td {
+  width: 33%;
+}
+/*
+.ced-faq-content-wrap {
+  overflow: scroll;
+}*/
+
+span#ced_etsy_cat_header {
+  background: #F0F0F0;
+  display: block;
+  padding: 12px 16px;
+  border-radius: 0;
+  border: 1px solid #949494;
+  border-radius: 3px 3px 0 0;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.ced-category-mapping ol {
+  margin-left: 0;
+  margin-top: 0;
+}
+#ced_etsy_breadcrumb {
+  background-color: #EFF9F1;
+  width: fit-content;
+  padding: 10px;
+  margin-top: 15px;
+}
+.forminp.forminp-select.ced-input-setting .select2.select2-container.select2-container--default {
+  width: 100% !important;
+}
+.ced-settings input {
+  width: 100% !important;
+}
+.ced-settings select {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.ced-settings tbody tr:nth-child(2) {
+  display: none;
+}
+.ced-settings tbody tr:nth-child(3) {
+  /*display: none;*/
+}
+.ced-header-wrapper {
+  margin: 10px 20px 0px 2px;
+}
+
+/*--------TIMLINE POPUP CSS ----------*/
+
+.ced-etsy-timeline-logs-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000001a;
+}
+
+.ced-etsy-timeline-logs-sc-fld-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000001a;
+}
+
+.ced-etsy-res-popup-wrapper {
+  width: 100% auto;
+  text-align: left;
+  /*overflow: auto;*/
+}
+/*--------TIMLINE POPUP CSS // ----------*/
+.progress-container {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.progress-bar {
+  height: 30px;
+  background-color: #007cba;
+  width: 0;
+  transition: width 0.3s;
+}
+.ced_progress {
+  display: none;
+}
+#ced_progress {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 30px;
+  transition: width 0.3s;
+}
+progress::-moz-progress-bar { background: #4caf50; }
+progress::-webkit-progress-value { background: #4caf50; }
+progress { color: #4caf50; }
+.components-card .ced-faq-trigger:checked + .ced-etsy-settng-title + .ced-etsy-settng-content-wrap {
+  max-height: 760px;
+  overflow-y: auto;
+}
+.ced_etsy_product_logs_GoToStar.ced_etsy_logs.widefat {
+  box-shadow: unset;
+}
+.woocommerce table.form-table .select2-container {
+  min-width: 100% !important;
+  width: 100% !important;
+}
+.ced-red {
+  color: red;
+}
+.form-field.form-required.term-name-wrap input {
+  width: 100%;
+}
+.ced-checked-button {
+  opacity: 0;
+}
+.form-field p, .form-field select {
+  max-width: 100%;
+  width: 100%;
+  min-width: 100%;
+}
+.ced-account-button {
+  display: flex;
+  justify-content: end;
+}
+.ced_etsy_section_cron_job p {
+  font-weight: bold;
+}
+.etsyprofiles tbody tr td input {
+  width: 50%;
+  padding: 5px;
+}
+.etsyprofiles tbody tr td select {
+  width: 60%;
+  max-width: 50%;
+  padding: 5px;
+}
+.ced-button-wrapper {
+  margin-top: 10px;
+}
+.etsyprofiles tbody tr th label {
+  font-weight: bold;
+}
+.ced_etsy_body {
+  margin: 10px 20px 0px 2px;
+}
+.custom_category_attributes_select2.select2-hidden-accessible ~ span {
+  width: 100% !important;
+}
+.form-table.ced_etsy_settings_table {
+  margin-top: -30px;
+}
+.ced-modal-text-content.ced_etsy_timeline_box_content {
+  width: 500px;
+  transform: unset;
+  top: 50px;
+}
+.components-button.is-primary.ced-manage a {
+  color: #fff;
+}
+.ced_etsy_log_rows td {
+  width: 20%;
+}
+.wp-list-table.widefat.fixed.striped.table-view-list.posts.ced_mcfw_marketplace_lists {
+  border: unset;
+}
+
+.wp-list-table.widefat.fixed.striped.table-view-list.posts.ced_mcfw_marketplace_lists td {
+  padding: 16px 10px;
+}
+
+.etsy_template_edit_wrapper, .etsy_template_edit_save_button {
+  display: none;
+}
+
+.ced_etsy_trademark_notice {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
